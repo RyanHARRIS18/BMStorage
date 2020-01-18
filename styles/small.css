@@ -3,16 +3,24 @@
  ------------------------------------------------------------------------------------------------------------------------------ 
  Basic outline
 - Home
-- Temple1 -  Rome Temple
-- Temple2 -  Fort Collins
-- Temple3 -  San Diego  
-- Temple4 - Salt Lake City
- 
+- Info 
+- Register
+- Create Account  
+- Contact
+
+Colors & Fonts:
+H1 & H2 - Poor Richard 
+#929E9A - Teal Green
+#BBC0C6 - Light Gray
+#717277 - Dark Gray
+#F2F2F2 - Off White
+#3D322F - Red Brown
  */
+
+ /* The Padlock */
 .Site-Logo{
     width: 100px;
 }
-
  /* ------------------------------------------------------------------------------------------------------------------------------
              Slide Show Start 
  ------------------------------------------------------------------------------------------------------------------------------*/
