@@ -41,6 +41,7 @@ p - font-family: 'Raleway', sans-serif;
     width: 750px;
     height: 75px;
     margin-top: 0em;
+    margin-bottom: -0.25em;
 }
 
 h1 {
@@ -113,7 +114,7 @@ h4 {
 
 .parallax-home{
   /* The image used */
-  background-image: url("../images/unit-photo-6.jpg");
+  background-image: url("../images/opendoor.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   z-index: -10;
@@ -257,7 +258,7 @@ nav {
   margin: 0 auto;
   max-width: 750px;
   width: 750px;
-  background-image: url("../images/menu-section.jpg");
+  background-image: url("../images/openunit.jpg");
   background-size: cover;
   position: absolute;
   display: block;
