@@ -20,16 +20,8 @@ p - font-family: 'Raleway', sans-serif;
  @import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap');
  @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
- body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  max-height: 1500px;
-}
-
 
  /* Logo & text */
-
-
 .headings{
   /* background-color: #527e88; */
   /* background-image: url('../images/texture.png'); */
@@ -38,10 +30,9 @@ p - font-family: 'Raleway', sans-serif;
 
  /* The Padlock */
 .Site-Logo{
-    width: 750px;
-    height: 75px;
+    width: 100%;
     margin-top: 0em;
-    margin-bottom: -0.25em;
+    margin-bottom: 1em;
 }
 
 h1 {
@@ -114,12 +105,11 @@ h4 {
 
 .parallax-home{
   /* The image used */
-  background-image: url("../images/opendoor.png");
+  background-image: url("../images/opendoor.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   z-index: -10;
-  width: 750px;
-  height: 2000px;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -256,8 +246,9 @@ h4 {
      
 nav {
   margin: 0 auto;
+  margin-top: -6em;
   max-width: 750px;
-  width: 750px;
+  width: 100%;
   background-image: url("../images/openunit.jpg");
   background-size: cover;
   position: absolute;
@@ -302,14 +293,14 @@ nav {
 
 .navigation a {
   display: block;
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 0.75rem;
   text-align: center;
   text-decoration: none;
 }
 
 .navigation a:hover {
-  color: black;
+  color: rgb(0, 0, 0);
   background-color: rgba(136, 165, 165, 0.633);
 }
 
@@ -332,7 +323,7 @@ ul:nth-child(3) {
   display: block;
   text-align: center;
   z-index: 3;
-  margin-top: -1.5em;
+  margin-top: 0em;
   animation-name: menu, close;
   animation-duration: .6s;
   animation-timing-function: ease-in-out;
@@ -355,8 +346,39 @@ ul:nth-child(3) {
 a.active {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px rgba(0, 0, 0, 0.666);
-  background-color: rgba(0, 0, 0, 0.517);
+  background-color: rgba(208, 214, 26, 0.387);
 
 }
 
+.call-to-action{
+  margin-top: 8em;
+}
 
+
+
+.homepage-sections{
+  background-image: url("/images/cardboard-boxes-stack.jpg");
+  background-color: #cccccc;
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: block;
+  text-align: center;
+  z-index: -3;
+  margin-top: -1.5em;
+  animation-name: menu, close;
+  animation-duration: .6s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  max-height: 3000px;
+  max-width: 500px;
+}
